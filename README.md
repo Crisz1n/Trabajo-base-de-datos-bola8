@@ -5,7 +5,7 @@
               Diego Corales,
               Benjamín Riquelme,
               Alvaro Guarda,
-              Cristobal Masilla
+              Cristobal Mansilla
 
 # Proyecto: Sistema de Gestión de Envios nacional
 Descripcion: 
