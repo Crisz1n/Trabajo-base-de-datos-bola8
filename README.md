@@ -1,6 +1,6 @@
 **Trabajo de Diseño y Modelado de Base de Datos**
 # Grupo bola8
-#  Sistema de Gestión de Venta de Pasajes Interurbanos
+#  Sistema de Gestión de Venta de Pasajes de Buses Interurbanos
 
 Desarrollo de un ecosistema de base de datos relacional diseñado para centralizar y optimizar la venta y reserva de boletos de bus dentro del territorio chileno. 
 
