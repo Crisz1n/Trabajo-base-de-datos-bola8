@@ -62,7 +62,7 @@ def crear_pasajero():
     print("\n--- REGISTRAR NUEVO CLIENTE ---")
     rut = input("Ingrese RUT (Ej: 11111111-1): ")
     nombre = input("Ingrese Nombre: ")
-    apellido = input("Ingrese Apellido: ")
+    apellido = input("Ingrese Apellido:")
 
     try:
         with conectar() as conn:
@@ -125,13 +125,13 @@ def vender_pasaje():
                 
                 id_viaje = int(input("\nIngrese el ID del viaje: "))
                 asiento = int(input("Ingrese numero de asiento: "))
-                rut = input("Ingrese RUT del comprador registrado: ")
+                rut = input("Ingrese RUT del comprador registrado:  ")
                 
                 # Obtener el ID del comprador a traves de su RUT
                 cur.execute("SELECT id_pasajero FROM PASAJERO WHERE rut = %s;", (rut,))
                 pasajero_data = cur.fetchone()
                 if not pasajero_data:
-                    print("Error: RUT no encontrado en el sistema. Registre al cliente primero.")
+                    print("Error:  RUT no encontrado en el sistema. Registre al cliente primero.")
                     return
                 id_comprador = pasajero_data[0]
 
