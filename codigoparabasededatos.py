@@ -8,7 +8,7 @@ DB_CONFIG = {
     "host": "localhost",
     "database": "ball8diego",  # Reemplaza con tu BD si es necesario
     "user": "postgres",
-    "password": "golaso79",         # Reemplaza con tu contrasena
+    "password": "golaso79",# Reemplaza con tu contrasena
     "port": 5432,
     "client_encoding": "utf8"
 }
